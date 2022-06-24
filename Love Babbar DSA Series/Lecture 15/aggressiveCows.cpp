@@ -39,3 +39,5 @@ int aggressiveCows(vector<int> &stalls, int k)
     }
     return ans;
 }
+
+//driver code goes here
