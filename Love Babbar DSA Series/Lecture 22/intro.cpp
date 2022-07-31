@@ -74,28 +74,6 @@ char getMaxOccCharacter(string s) {
 }
 
 int main( ) {
-/*
-    char name[20];
-
-    cout << "Enter your name " << endl;
-    cin >> name;
-    //name[2] = '\0';
-
-    cout << "Your name is ";
-    cout << name << endl;
-    int len = getLength(name);
-    cout << " Length: " << len << endl;
-
-    reverse(name, len);
-    cout << "Your name is ";
-    cout << name << endl;
-
-    cout <<" Palindrome or Not: " << checkPalindrome(name, len) << endl;
-
-    cout << " CHARACTER is " << toLowerCase('b') << endl;
-    cout << " CHARACTER is " << toLowerCase('C') << endl;
-    */
-
    string s;
    cin >> s;
 
