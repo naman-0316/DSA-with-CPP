@@ -39,7 +39,6 @@ private:
 public:
     bool isPalindrome(string s) {
         
-        //faltu character hatado
         string temp = "";
         
         for(int j=0; j<s.length(); j++) {   
@@ -48,12 +47,10 @@ public:
             }
         }
         
-        //lowercase me kardo
         for(int j=0; j<temp.length(); j++) { 
             temp[j] = toLowerCase(temp[j]);
         }
         
-        //check palindrome
         return checkPalindrome(temp);
         
     }
